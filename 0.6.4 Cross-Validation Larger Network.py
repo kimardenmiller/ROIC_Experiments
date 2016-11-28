@@ -78,7 +78,6 @@ def create_baseline():
     print("%s: %.2f%%" % (model.metrics_names[2], scores[2] * 100))
     # calculate predictions
     predictions = model.predict(X)
-    # predictions = model.predict(normalizedX)
     np.set_printoptions(precision=3, suppress=True)
     print('Predictions (Fist 100): ', '\n', predictions[0:100, 0])
     print('Rows in Prediction: ', np.size(predictions[:, 0]))
@@ -99,12 +98,14 @@ def create_baseline():
 # evaluate baseline model with standardized data set
 estimators = []
 estimators.append(('standardize', StandardScaler()))
-estimators.append(('mlp', KerasClassifier(build_fn=create_baseline, nb_epoch=1000, batch_size=10, verbose=0)))
+estimators.append(('mlp', KerasClassifier(build_fn=create_baseline, nb_epoch=100, batch_size=10, verbose=0)))
 pipeline = Pipeline(estimators)
 kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
 results = cross_val_score(pipeline, X, Y, cv=kfold)
 np.set_printoptions(precision=3, suppress=True)
-print("Standardized (stock): %.2f%% (%.2f%%)" % (results.mean() * 100, results.std() * 100))
-print('Accuracy Metrics: ', '\n-----------------------\n')
+print("Standardized (conventional): %.2f%% (%.2f%%)" % (results.mean() * 100, results.std() * 100))
+print('Accuracy Metrics: \n', '\n-----------------------')
 print("\nBaseline Accuracy of Random Prediction: %.2f%% " % ((total_positive_examples / total_examples) * 100))
-print('\nAccuracy Average of All Positive Predictions: %.2f%% (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
+print('\nAccuracy Average of All Positive Predictions: %.2f%% Standard Deviation: (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
+
+#  Nov 28, 2016  
