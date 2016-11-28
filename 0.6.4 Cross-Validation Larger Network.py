@@ -106,6 +106,6 @@ np.set_printoptions(precision=3, suppress=True)
 print("Standardized (conventional): %.2f%% (%.2f%%)" % (results.mean() * 100, results.std() * 100))
 print('Accuracy Metrics: \n', '\n-----------------------')
 print("\nBaseline Accuracy of Random Prediction: %.2f%% " % ((total_positive_examples / total_examples) * 100))
-print('\nAccuracy Average of All Positive Predictions: %.2f%% Standard Deviation: (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
+print('\nAccuracy Average of All Positive Predictions: %.2f%%   Standard Deviation: (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
 
-#  Nov 28, 2016  
+#  Nov 28, 2016  Accuracy Average of All Positive Predictions: 6.67% Standard Deviation: (3.87%)
