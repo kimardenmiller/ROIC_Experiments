@@ -1,0 +1,108 @@
+"Symbol","Name","Exchange","Sector","Industry","SCTR","Universe","Close","Volume"
+"ALDW","Alon USA Partners, LP","NYSE","Energy","Exploration & Production",,"",8.100,68267
+"AMWD","American Woodmark Corp.","NASD","Industrial","Building Materials",45.8,"sml",75.200,58920
+"AMZN","Amazon.com, Inc.","NASD","Cyclicals","Broadline Retailers",66.1,"lrg",787.750,3412629
+"APTS","Preferred Apartment Communities Inc.","NYSE","Financial","Residential REITs",43.7,"sml",13.000,161933
+"ATVI","Activision Blizzard Inc.","NASD","Cyclicals","Toys",44.1,"lrg",41.010,15018801
+"AYI","Acuity Brands, Inc.","NYSE","Industrial","Building Materials",17.3,"lrg",231.110,420099
+"BECN","Beacon Roofing Supply Inc.","NASD","Cyclicals","Home Improvement Retailers",47.0,"sml",42.860,194651
+"BLKB","Blackbaud Inc.","NASD","Technology","Software",42.8,"sml",61.960,325679
+"BNCN","BNC Bancorp","NASD","Financial","Banks",64.3,"sml",24.700,133998
+"BRSS","Global Brass and Copper Holdings, Inc.","NYSE","Materials","Nonferrous Metals",22.1,"sml",25.513,141894
+"BWXT","BWX Technologies, Inc.","NYSE","Industrial","Industrial Machinery",48.3,"mid",36.630,696224
+"BYD","Boyd Gaming Corp.","NYSE","Cyclicals","Gambling",26.2,"sml",17.750,1547823
+"CBM","Cambrex Corp.","NYSE","Materials","Specialty Chemicals",71.9,"sml",48.450,379195
+"CENT","Central Garden & Pet Co.","NASD","Cyclicals","Durable Household Products",90.9,"sml",25.910,104521
+"CHDN","Churchill Downs, Inc.","NASD","Cyclicals","Gambling",43.3,"sml",137.450,59431
+"CHUY","Chuy's Holdings Inc.","NASD","Cyclicals","Restaurants & Bars",27.5,"sml",28.250,137687
+"CIVI","Civitas Solutions, Inc.","NYSE","Health Care","Health Care Providers",19.5,"sml",17.300,25764
+"COKE","Coca-Cola Bottling Co. Consolidated","NASD","Consumer Staples","Soft Drinks",32.2,"sml",141.270,34308
+"COR","CoreSite Realty Corp.","NYSE","Financial","Specialty REITs",33.4,"sml",72.090,337034
+"COT","Cott Corp.","NYSE","Consumer Staples","Soft Drinks",,"",13.100,471866
+"CSGS","CSG Systems Intl, Inc.","NASD","Technology","Software",40.6,"sml",39.930,128801
+"DY","Dycom Industries, Inc.","NYSE","Technology","Telecom Equipment",47.7,"sml",78.540,823493
+"EA","Electronic Arts, Inc.","NASD","Cyclicals","Toys",63.7,"lrg",81.490,2198183
+"EBF","Ennis Business Forms, Inc.","NYSE","Industrial","Business Support Services",24.7,"sml",15.100,98819
+"EBS","Emergent BioSolutions Inc.","NYSE","Health Care","Biotechnology",16.5,"sml",27.800,686188
+"EFSC","Enterprise Financial Services Corp.","NASD","Financial","Banks",82.5,"sml",33.250,59982
+"ELNK","EarthLink, Inc.","NASD","Technology","Internet",14.3,"sml",5.270,2698534
+"EPAM","EPAM Systems, Inc.","NYSE","Technology","Software",17.2,"sml",60.750,778764
+"ERI","Eldorado Resorts, Inc.","NASD","Cyclicals","Gambling",12.7,"sml",11.300,425095
+"ESLT","Elbit Systems Ltd.","NASD","Industrial","Defense",52.6,"mid",96.800,22435
+"EXLS","ExlService Holdings Inc.","NASD","Industrial","Business Support Services",19.8,"sml",44.030,162328
+"EXPE","Expedia, Inc","NASD","Cyclicals","Travel & Tourism",85.1,"lrg",127.010,2345890
+"EXR","Extra Space Storage Inc.","NYSE","Financial","Specialty REITs",12.3,"lrg",75.380,893132
+"FBC","Flagstar Bancorp, Inc.","NYSE","Financial","Banks",69.0,"sml",27.040,61212
+"FCB","FCB Financial Holdings, Inc.","NYSE","Financial","Banks",49.4,"sml",36.550,227298
+"FIX","Comfort Systems U S A, Inc.","NYSE","Industrial","Business Support Services",36.3,"sml",28.700,183382
+"FIZZ","National Beverage Corp.","NASD","Consumer Staples","Soft Drinks",24.8,"sml",46.210,253348
+"FSB","Franklin Financial Network Inc.","NYSE","Financial","Banks",29.9,"sml",30.900,59124
+"GLOB","Globant SA","NYSE","Technology","Software",64.5,"sml",43.010,166940
+"GOOGL","Alphabet Inc.","NASD","Technology","Internet",70.7,"lrg",811.980,1769069
+"GPN","Global Payments, Inc.","NYSE","Financial","Financial Administration",34.8,"lrg",72.630,969035
+"HCKT","Hackett Group, Inc.","NASD","Technology","Computer Services",43.2,"sml",15.340,245787
+"HOFT","Hooker Furniture Corp.","NASD","Cyclicals","Furnishings",57.8,"sml",26.100,30257
+"HRL","Hormel Foods Corp.","NYSE","Consumer Staples","Food Products",30.3,"lrg",37.420,3289269
+"HSKA","Heska Corp.","NASD","Health Care","Pharmaceuticals",97.2,"sml",60.930,71744
+"HUBS","HubSpot Inc.","NYSE","Technology","Software",76.9,"sml",54.600,269355
+"IBKR","Interactive Brokers Group, Inc.","NASD","Financial","Investment Services",18.7,"mid",33.240,233274
+"ICLR","ICON PLC","NASD","Health Care","Health Care Providers",77.7,"mid",77.970,608851
+"INCY","Incyte Corp.","NASD","Health Care","Biotechnology",,"",92.160,1280368
+"IPHI","Inphi Corp.","NYSE","Technology","Semiconductors",93.1,"sml",42.420,913740
+"IRMD","iRadimed Corp.","NASD","Health Care","Medical Equipment",3.1,"sml",9.600,33488
+"JBT","John Bean Technologies Corp.","NYSE","Industrial","Industrial Machinery",94.3,"sml",80.800,154145
+"JE","Just Energy Group, Inc.","NYSE","Utilities","Gas Distribution",,"",5.060,69377
+"JRVR","James River Group Holdings, Ltd.","NASD","Financial","Property-Casualty Insurance",71.6,"sml",36.990,99737
+"KHC","Kraft Heinz Co.","NASD","Consumer Staples","Food Products",56.6,"lrg",88.340,2791206
+"LGND","Ligand Pharmaceuticals Inc.","NASD","Health Care","Biotechnology",20.6,"sml",96.860,423429
+"LHCG","LHC Group Inc.","NASD","Health Care","Health Care Providers",77.1,"sml",42.450,122151
+"LMAT","LeMaitre Vascular Inc.","NASD","Health Care","Medical Equipment",94.4,"sml",21.770,144864
+"LXFT","Luxoft Holding, Inc.","NYSE","Technology","Software",,"",50.400,205352
+"LYTS","LSI Industries, Inc.","NASD","Technology","Electrical Components",6.7,"sml",8.260,46844
+"MANH","Manhattan Associates, Inc.","NASD","Technology","Software",11.8,"mid",51.460,553126
+"MASI","Masimo Corp.","NASD","Health Care","Medical Equipment",87.1,"sml",60.400,227192
+"MKTX","MarketAxess Holdings Inc.","NASD","Financial","Investment Services",75.0,"mid",155.210,287618
+"MSCI","MSCI, Inc.","NYSE","Financial","Specialty Finance",56.6,"mid",80.800,454608
+"NAT","Nordic American Tanker Shipping Ltd.","NYSE","Industrial","Marine Transportation",3.7,"sml",7.690,1918476
+"NBIX","Neurocrine Biosciences, Inc.","NASD","Health Care","Biotechnology",52.6,"mid",45.660,843821
+"NEO","NeoGenomics, Inc.","NASD","Health Care","Health Care Providers",50.4,"sml",8.210,298852
+"NFLX","Netflix, Inc.","NASD","Cyclicals","Specialty Retailers",98.6,"lrg",124.340,4690756
+"NPK","National Presto Inds Inc.","NYSE","Cyclicals","Durable Household Products",38.2,"sml",85.600,32341
+"NTT","Nippon Telephone & Telegraph","NYSE","Utilities","Fixed Telecommunications",20.4,"lrg",43.500,338716
+"NVDA","NVIDIA Corp.","NASD","Technology","Semiconductors",99.7,"lrg",71.160,10747107
+"OA","Orbital ATK, Inc.","NYSE","Industrial","Defense",36.3,"mid",77.840,1271864
+"OME","Omega Protein Corp.","NYSE","Consumer Staples","Food Products",58.0,"sml",22.400,120129
+"PAC","Grupo Aeroportuario Del Pacifico SA de CV","NYSE","Industrial","Transportation Services",53.7,"mid",98.890,60375
+"PATK","Patrick Industries, Inc.","NASD","Industrial","Building Materials",64.4,"sml",57.700,53511
+"PBH","Prestige Brands Holdings Inc.","NYSE","Health Care","Pharmaceuticals",20.9,"sml",46.450,293217
+"PCTY","Paylocity Holding Corp.","NASD","Technology","Software",31.9,"sml",37.950,564598
+"PLAB","Photronics, Inc.","NASD","Technology","Semiconductors",51.4,"sml",10.300,367055
+"PLAY","Dave & Buster's Entertainment Inc.","NASD","Cyclicals","Restaurants & Bars",53.4,"sml",41.420,555939
+"PMC","PharMerica Corp.","NYSE","Health Care","Health Care Providers",8.0,"sml",20.800,681325
+"POST","Post Holdings, Inc.","NYSE","Consumer Staples","Food Products",32.2,"mid",74.800,907248
+"PRAH","PRA Health Sciences, Inc.","NASD","Health Care","Health Care Providers",81.3,"sml",55.460,295611
+"PRMW","Primo Water Corp.","NASD","Consumer Staples","Soft Drinks",42.9,"sml",11.990,123428
+"RAI","Reynolds American Inc.","NYSE","Consumer Staples","Tobacco",89.6,"lrg",55.410,4145165
+"RGR","Sturm Ruger & Co., Inc.","NYSE","Industrial","Defense",61.8,"sml",64.400,302386
+"RNG","RingCentral Inc.","NYSE","Technology","Computer Services",50.6,"sml",20.800,507323
+"ROCK","Gibraltar Steel Corp.","NASD","Industrial","Building Materials",94.2,"sml",40.650,267404
+"SBUX","Starbucks Corp.","NASD","Cyclicals","Restaurants & Bars",38.1,"lrg",54.620,9351994
+"SERV","ServiceMaster Global Holdings, Inc.","NYSE","Cyclicals","Special Consumer Services",54.3,"mid",36.410,894024
+"SFBS","ServisFirst Bancshares, Inc.","NASD","Financial","Banks",69.3,"sml",54.160,76282
+"STMP","Stamps.com, Inc.","NASD","Cyclicals","Special Consumer Services",82.0,"sml",100.550,310671
+"STZ","Constellation Brands, Inc.","NYSE","Consumer Staples","Distillers & Vintners",55.3,"lrg",166.550,1466139
+"SWHC","Smith & Wesson Holding Corp.","NASD","Industrial","Defense",86.0,"sml",28.450,2156456
+"TAST","Carrols Restaurant Group Inc.","NASD","Cyclicals","Restaurants & Bars",13.9,"sml",11.250,1581022
+"TMUS","T-Mobile US, Inc.","NASD","Technology","Mobile Telecommunications",,"",50.460,1868022
+"TSS","Total System Services, Inc.","NYSE","Financial","Financial Administration",38.0,"lrg",49.680,1087803
+"TTS","Tile Shop Holdings, Inc.","NASD","Cyclicals","Home Improvement Retailers",48.1,"sml",17.000,676835
+"TYL","Tyler Technologies, Inc.","NYSE","Technology","Computer Services",33.2,"mid",154.350,241398
+"USCR","US Concrete, Inc.","NASD","Industrial","Building Materials",18.3,"sml",48.850,295209
+"VG","Vonage Holdings Corp.","NYSE","Utilities","Fixed Telecommunications",92.8,"sml",6.360,1713432
+"VLO","Valero Energy Corp","NYSE","Energy","Exploration & Production",67.7,"lrg",58.140,3803447
+"VLRS","Controladora Vuela Compania de Aviacion","NYSE","Industrial","Airlines",,"",19.300,651216
+"VMC","Vulcan Materials Co.","NYSE","Industrial","Building Materials",76.4,"lrg",119.730,1384791
+"VRSN","VeriSign, Inc.","NASD","Technology","Computer Services",42.3,"lrg",81.480,553489
+"WD","Walker & Dunlop Inc.","NYSE","Financial","Mortgage Finance",83.6,"sml",27.740,191939
+"WNS","WNS Holdings Ltd.","NYSE","Industrial","Business Support Services",,"",26.670,291654
+"XRS","TAL Education Group","NYSE","Cyclicals","Special Consumer Services",97.1,"mid",79.460,579360

@@ -1,0 +1,133 @@
+Symbol,Name,Exchange,Sector,Industry,SCTR,Universe,Close,Volume
+AAPL,"Apple, Inc.",NASD,Technology,Computer Hardware,59.5,lrg,111.73,29206508
+ABAX,"ABAXIS, Inc.",NASD,Health Care,Medical Supplies,36.9,sml,52.25,97122
+AGU,"Agrium, Inc.",NYSE,Materials,Specialty Chemicals,,,100.81,1055128
+ALGT,Allegiant Travel Co.,NASD,Industrial,Airlines,53.4,sml,163.75,113939
+ALK,"Alaska Air Group, Inc.",NYSE,Industrial,Airlines,81.5,lrg,78.78,796742
+ALR,Alere Inc.,NYSE,Health Care,Medical Supplies,20.5,mid,39.37,294904
+AMC,AMC Entertainment Holdings Inc.,NYSE,Cyclicals,Recreational Services,62,sml,34.75,315913
+ANTM,"Anthem, Inc.",NYSE,Health Care,Health Care Providers,63.1,lrg,137.36,1204086
+APU,Amerigas Partners LP,NYSE,Utilities,Gas Distribution,53.5,mid,46.06,261349
+ASX,Advanced Semiconductor,NYSE,Technology,Semiconductors,40.2,mid,5.41,398288
+AXL,American Axle & Manufac.,NYSE,Cyclicals,Auto Parts,14.2,sml,15.77,1208013
+AZUR,"Azure Midstream Partners, LP",OTCMKT,Energy,Exploration & Production,,,0.975,158616
+BA,Boeing Co.,NYSE,Industrial,Aerospace,76.1,lrg,147.02,2822038
+BAH,Booz Allen Hamilton Holding Corp.,NYSE,Industrial,Business Support Services,89.2,mid,35.6,588185
+BAYRY,Bayer AG,OTCMKT,Materials,Specialty Chemicals,18.9,lrg,96.775,90824
+BCC,Boise Cascade Co.,NYSE,Industrial,Building Materials,14.9,sml,21.5,313741
+BGR,BlackRock Energy and Resources Trust,NYSE,,,,,14.06,101255
+BIG,"Big Lots, Inc.",NYSE,Cyclicals,Broadline Retailers,53.2,sml,51.28,681021
+BIIB,Biogen Inc.,NASD,Health Care,Biotechnology,72.2,lrg,318.32,1328471
+BOBE,"Bob Evans Farms, Inc.",NASD,Cyclicals,Restaurants & Bars,36.8,sml,44.51,176354
+BRDCY,Bridgestone Corp. ADR,OTCMKT,Consumer Staples,Tires,,,19.14,21688
+BSX,Boston Scientific Corp.,NYSE,Health Care,Medical Equipment,22.5,lrg,21.46,7208519
+BTT,BlackRock Municipal Target Term Trust Inc.,NYSE,,,,,21.93,551097
+BUD,Anheuser-Busch InBev ADR,NYSE,Consumer Staples,Brewers,3.8,lrg,103.33,3720499
+CBM,Cambrex Corp.,NYSE,Materials,Specialty Chemicals,33.5,sml,49.5,351620
+CCI,Crown Castle Intl Corp.,NYSE,Technology,Mobile Telecommunications,14.4,lrg,84.55,2532639
+CEN,Center Coast MLP & Infrastructure Fund,NYSE,,,,,11.45,69545
+CF,"CF Industries Holdings, Inc.",NYSE,Materials,Specialty Chemicals,73.6,lrg,29.87,7050056
+CHL,China Mobile Ltd.,NYSE,Technology,Mobile Telecommunications,17,lrg,54.06,453666
+CMS,CMS Energy Corp.,NYSE,Utilities,Conventional Electricity,30,lrg,40.18,2186601
+CMTL,Comtech Telecommunications Corp.,NASD,Technology,Telecom Equipment,4.6,sml,11.47,191722
+CORE,"Core Mark Holding Co., Inc.",NASD,Consumer Staples,Food Retailers,12.8,sml,35.83,242440
+CRL,Charles River Laboratorie,NYSE,Health Care,Biotechnology,9.5,mid,72.44,644721
+CSWC,Capital Southwest Corp.,NASD,,,,,14.42,3769
+CXW,Corrections Corp. of America,NYSE,Industrial,Business Support Services,39.5,mid,21.27,2470634
+DCM,"NTT DoCoMo, Inc.",NYSE,Technology,Mobile Telecommunications,9.8,lrg,22.58,133113
+DFP,Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.,NYSE,,,,,22.76,80375
+DGX,Quest Diagnostics Inc.,NYSE,Health Care,Health Care Providers,72.8,lrg,87.29,1602120
+DKL,"Delek Logistics Partners, LP",NYSE,Energy,Pipelines,,,26,66162
+DPS,"Dr. Pepper Snapple Group, Inc.",NYSE,Consumer Staples,Soft Drinks,21.5,lrg,85.25,1467087
+EA,"Electronic Arts, Inc.",NASD,Cyclicals,Toys,36.8,lrg,78.26,3061590
+ELLI,Ellie Mae Inc.,NYSE,Technology,Software,9,sml,81.93,495350
+FFC,F&C Claymore Preferred Securities Income Fund,NYSE,,,,,19.47,133562
+FLWS,"1-800 FLOWERS.COM, Inc.",NASD,Cyclicals,Specialty Retailers,78.9,sml,10.65,166868
+FRP,Fairpoint Comunications Inc.,NASD,Utilities,Fixed Telecommunications,50.5,sml,16.5,129636
+FTR,Frontier Communications Corp.,NASD,Utilities,Fixed Telecommunications,0.8,lrg,3.51,16941427
+FUN,Cedar Fair L P,NYSE,Cyclicals,Recreational Services,52.4,mid,60.25,107915
+GBAB,Guggenheim Taxable Municipal Managed Duration Trust,NYSE,,,,,21,109843
+GFF,Griffon Corp.,NYSE,Industrial,Building Materials,90.1,sml,22.2,956753
+GHC,Graham Holdings Company,NYSE,Cyclicals,Special Consumer Services,,,482.6,28556
+GILD,"Gilead Sciences, Inc.",NASD,Health Care,Biotechnology,11.6,lrg,74.98,6803582
+GNCMA,"General Communication, Inc.",NASD,Utilities,Fixed Telecommunications,44.7,sml,16.8,146376
+HAE,Haemonetics Corp.,NYSE,Health Care,Medical Supplies,71.5,sml,38.83,184243
+HAR,"Harman Intl Inds, Inc.",NYSE,Technology,Consumer Electronics,98.8,lrg,109.37,1392261
+HEINY,Heineken NV,OTCMKT,Consumer Staples,Brewers,4.2,lrg,37.73,105408
+HEP,Holly Energy Partners LP,NYSE,Energy,Pipelines,46.7,mid,32.69,189648
+HLS,Healthsouth Corp.,NYSE,Health Care,Health Care Providers,26.3,sml,40.82,1812003
+HOLX,"Hologic, Inc.",NASD,Health Care,Medical Supplies,64.1,lrg,38.65,1621393
+HURN,Huron Consulting Group Inc.,NASD,Industrial,Business Support Services,8.5,sml,51,175780
+HXL,Hexcel Corp.,NYSE,Industrial,Aerospace,74.8,mid,49.24,477507
+HZO,"Marinemax, Inc.",NYSE,Cyclicals,Specialty Retailers,21.3,sml,18.3,458368
+ICLR,ICON PLC,NASD,Health Care,Health Care Providers,43.8,mid,76.41,336285
+IFN,"India Fund, Inc.",NYSE,,,,,21.85,139096
+IIF,Morgan Stanley India Investment Fund,NYSE,,,,,25.57,60709
+IMAX,Imax Corp.,NYSE,Cyclicals,Recreational Services,46.3,sml,34.8,1564805
+IMBBY,Imperial Brands PLC,OTCMKT,Consumer Staples,Tobacco,3.9,lrg,43.435,60861
+IMKTA,"Ingles Markets, Inc.",NASD,Consumer Staples,Food Retailers,72.4,sml,47.4,30446
+INFN,Infinera Corp.,NASD,Technology,Semiconductors,4.2,sml,8.37,1618799
+INFY,Infosys Technologies Ltd.,NYSE,Technology,Computer Services,2.3,lrg,14,5760578
+KLIC,"Kulicke and Soffa Industries, Inc.",NASD,Technology,Semiconductors,,,15.19,561082
+KR,Kroger Co.,NYSE,Consumer Staples,Food Retailers,39.5,lrg,33.53,5447840
+LBY,"Libbey, Inc.",AMEX,Cyclicals,Durable Household Products,43,sml,18.47,77815
+LDP,"Cohen & Steers Limited Duration Preferred and Income Fund, Inc.",NYSE,,,,,23.41,85626
+LH,Laboratory Corporation of America Holdings,NYSE,Health Care,Health Care Providers,23.4,lrg,126.12,546791
+LRLCY,L'Oreal SA,OTCMKT,Consumer Staples,Personal Products,11.4,lrg,33.855,52880
+LUX,Luxottica Group SPA,NYSE,Cyclicals,Clothing & Accessories,46.8,lrg,52.97,355667
+MANT,ManTech Intl Corp.,NASD,Industrial,Defense,64,sml,43.34,147220
+MHK,"Mohawk Inds, Inc.",NYSE,Cyclicals,Furnishings,42.6,lrg,199.75,484820
+MNK,Mallinckrodt plc,NYSE,Health Care,Pharmaceuticals,6.5,lrg,56.86,1955700
+MNST,Monster Beverage Corp.,NASD,Consumer Staples,Soft Drinks,8.1,lrg,43.59,9065620
+MO,Altria Group Inc.,NYSE,Consumer Staples,Tobacco,39.2,lrg,63.69,6921696
+MOS,Mosaic Co.,NYSE,Materials,Specialty Chemicals,77.6,lrg,29.05,5397418
+MPLX,MPLX LP,NYSE,Energy,Pipelines,,,34.2,1667271
+MRK,"Merck & Co., Inc.",NYSE,Health Care,Pharmaceuticals,61.4,lrg,62.3,6835678
+MVF,Blackrock MuniVest Fund Inc.,AMEX,,,,,9.88,201007
+MYN,"BlackRock MuniYield New York Quality Fund, Inc.",NYSE,,,,,12.8,110337
+NEU,NewMarket Corp.,NYSE,Materials,Specialty Chemicals,45.4,mid,414.7,33937
+NJDCY,Nidec Corp.,OTCMKT,Technology,Electrical Components,,,23.19,25496
+NOC,Northrop Grumman Corp.,NYSE,Industrial,Defense,82.9,lrg,246.29,978180
+NS,NuStar Energy LP,NYSE,Energy,Pipelines,55.3,mid,48.14,327746
+NSP,"Insperity, Inc.",NYSE,Cyclicals,Business Training Agencies,34,sml,73.1,244354
+NTES,"NetEase.com, Inc.",NASD,Technology,Internet,,,234.16,780421
+NYLD/A,NRG Yield Inc.,NYSE,Utilities,Conventional Electricity,23.7,sml,14.97,242932
+OGS,ONE Gas Inc.,NYSE,Utilities,Gas Distribution,30.1,sml,61.05,186176
+OLN,Olin Corp.,NYSE,Materials,Commodity Chemicals,67.2,sml,25.42,1913672
+PAM,Pampa Energia SA,NYSE,Utilities,Conventional Electricity,,,35.16,195772
+PCG,PG&E Corp.,NYSE,Utilities,Conventional Electricity,35.4,lrg,59.16,1417716
+PDRDY,Pernod Ricard SA,OTCMKT,Consumer Staples,Distillers & Vintners,17.9,lrg,21.57,14835
+PETS,"PetMed Express, Inc.",NASD,Consumer Staples,Drug Retailers,57.8,sml,21.9,120730
+PHK,PIMCO High Income Fund,NYSE,,,,,8.78,575428
+PHYS,Sprott Physical Gold Trust,NYSE,,,21.2,mid,9.94,1451237
+PMF,PIMCO Municipal Income Fund,NYSE,,,,,14.14,132645
+PML,PIMCO Municipal Income Fund II,NYSE,,,,,12.21,231164
+PRXL,PAREXEL Intl Corp.,NASD,Health Care,Health Care Providers,10.1,sml,57.51,3756636
+PSO,Pearson PLC,NYSE,Cyclicals,Publishing,,,9.78,440426
+RAI,Reynolds American Inc.,NYSE,Consumer Staples,Tobacco,65.3,lrg,54.21,7086215
+RMD,"Resmed, Inc.",NYSE,Health Care,Medical Equipment,28.8,mid,58.52,567435
+SAM,Boston Beer Co. Cl A,NYSE,Consumer Staples,Brewers,25.2,sml,169.35,107119
+SBUX,Starbucks Corp.,NASD,Cyclicals,Restaurants & Bars,49.9,lrg,56.1,8003379
+SCSS,Select Comfort Corp.,NASD,Cyclicals,Furnishings,35.2,sml,23.11,640351
+SIMO,Silicon Motion Technology Corp. ADS,NASD,Technology,Semiconductors,,,46.18,629864
+SKX,"Skechers Usa, Inc.",NYSE,Cyclicals,Footwear,10.9,mid,22.28,2000555
+SNE,Sony Corp.,NYSE,Technology,Consumer Electronics,,,29.76,563618
+SONC,Sonic Corp.,NASD,Cyclicals,Restaurants & Bars,16.1,sml,26.6,952468
+SPR,Spirit AeroSystems Holdings Inc.,NYSE,Industrial,Aerospace,86,mid,55.91,922351
+STON,StoneMor Partners L.P.,NYSE,Cyclicals,Special Consumer Services,,,10.32,327108
+STZ,"Constellation Brands, Inc.",NYSE,Consumer Staples,Distillers & Vintners,31.7,lrg,157.39,1742210
+SWKS,Skyworks Solutions Inc.,NASD,Technology,Semiconductors,74.5,lrg,78.93,1512864
+TARO,Taro Pharmaceutical Industries Ltd.,NYSE,Health Care,Pharmaceuticals,5.6,mid,102.22,129733
+TELNY,Telenor ASA,OTCMKT,Technology,Mobile Telecommunications,,,14.62,105541
+TSO,Tesoro Petroleum Corp.,NYSE,Energy,Exploration & Production,57.5,lrg,84.7,3596823
+TTM,Tata Motors Ltd.,NYSE,Industrial,Commercial Vehicles,,,33.94,1548581
+UFI,"Unifi, Inc.",NYSE,Cyclicals,Clothing & Accessories,53,sml,30.69,84202
+UL,Unilever PLC,NYSE,Consumer Staples,Personal Products,7.4,lrg,39.17,5317363
+UN,Unilever N V,NYSE,Consumer Staples,Personal Products,8,lrg,39.06,1902043
+UTHR,United Therapeutics Corp.,NASD,Health Care,Biotechnology,68.6,mid,131.45,345925
+VAR,Varian Medical Systems In,NYSE,Health Care,Medical Equipment,38.9,lrg,89.66,658576
+VIV,Telefonica Brasil SA,NYSE,Utilities,Fixed Telecommunications,,,13.11,934187
+VMC,Vulcan Materials Co.,NYSE,Industrial,Building Materials,73.7,lrg,128.08,1208581
+WIFI,Boingo Wireless Inc.,NASD,Technology,Internet,94.5,sml,11.85,227645
+WRK,WestRock Co.,NYSE,Materials,Containers & Packaging,89.5,lrg,50.46,1674174
+YARIY,Yara International ASA,OTCMKT,Materials,Specialty Chemicals,54.9,mid,37.56,2425
