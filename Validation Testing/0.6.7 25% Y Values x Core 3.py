@@ -22,7 +22,8 @@ data = list(csv.reader(open('../data/x2015_noFinance.csv')))
 x_data_values = np.asarray(data)
 
 # split into input (X) and output (Y) variables
-x_data_feature_values = x_data_values[:, [0, 6, 8, 9, 13, 17, 18, 20]]  # Selecting the Features
+feature_index = [0, 8, 9, 20]  # Original: [0, 6, 8, 9, 13, 17, 18, 20]
+x_data_feature_values = x_data_values[:, feature_index]  # Selecting the Features
 x_data_features = x_data_feature_values[1:, :]  # Remove Labels
 x_data_features[x_data_features == ''] = 0.0  # Remove Blanks
 selected_feature_labels = x_data_feature_values[0, 1:]  # Just the Feature Labels
@@ -30,14 +31,15 @@ print('Selected Feature Label Names: \n', selected_feature_labels)
 print('First few Stocks with Features, no Labels: ', '\n', x_data_features[0:2, :], ' ...')
 print(np.size(x_data_features[:, 0]), 'Stocks by', np.size(x_data_features[0, :]), 'Features (with Tickers')
 
-y_import = pandas.read_csv('../data/y201501_noFinancials.csv', header=None)
+y_import = pandas.read_csv('../data/y20150106_noFin8.csv', header=None)
 y_data_values = y_import[1:].values
 
 x_tickers = x_data_features[:, 0]
 print('x tickers: ', x_tickers)
-y_tickers = y_data_values[:, 0]
+y_tickers = y_data_values[:np.size(y_data_values[:, 0])-1, 0]
 print('Total Y Tickers: ', np.size(y_tickers))
 print('First few Y tickers: \n', y_tickers[0:5])
+print('Last few Y tickers: \n', y_tickers[673:])
 
 # Format Y to y = 1 (positive) and y = 0 (negative) examples
 true_false_mask = np.in1d(x_tickers, y_tickers)
@@ -109,5 +111,6 @@ print('\nAccuracy Metrics:', '\n-----------------------')
 print('Accuracy Average of All Positive Predictions: %.2f%%   Standard Deviation: (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
 print("Baseline Accuracy of Random Prediction: %.2f%% " % ((total_positive_examples / total_examples) * 100))
 
-#  Nov 28, 2016
-#  Accuracy Average of All Positive Predictions: 6.67% Standard Deviation: (3.87%)
+# Nov 30, 2016
+# Accuracy Average of All Positive Predictions: 18.60%   Standard Deviation: (12.57%)
+# Baseline Accuracy of Random Prediction: 24.93%

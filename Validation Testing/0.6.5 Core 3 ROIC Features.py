@@ -22,7 +22,8 @@ data = list(csv.reader(open('../data/x2015_noFinance.csv')))
 x_data_values = np.asarray(data)
 
 # split into input (X) and output (Y) variables
-x_data_feature_values = x_data_values[:, [0, 6, 8, 9, 13, 17, 18, 20]]  # Selecting the Features
+x_data_feature_values = x_data_values[:, [0, 8, 9, 20]]  # Selecting the Features
+# x_data_feature_values = x_data_values[:, [0, 6, 8, 9, 13, 17, 18, 20]]  # Selecting the Features
 x_data_features = x_data_feature_values[1:, :]  # Remove Labels
 x_data_features[x_data_features == ''] = 0.0  # Remove Blanks
 selected_feature_labels = x_data_feature_values[0, 1:]  # Just the Feature Labels
@@ -109,5 +110,6 @@ print('\nAccuracy Metrics:', '\n-----------------------')
 print('Accuracy Average of All Positive Predictions: %.2f%%   Standard Deviation: (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
 print("Baseline Accuracy of Random Prediction: %.2f%% " % ((total_positive_examples / total_examples) * 100))
 
-#  Nov 28, 2016
-#  Accuracy Average of All Positive Predictions: 6.67% Standard Deviation: (3.87%)
+# Nov 29, 2016
+# Accuracy Average of All Positive Predictions: 7.63%   Standard Deviation: (4.45%)
+# Baseline Accuracy of Random Prediction: 8.29%

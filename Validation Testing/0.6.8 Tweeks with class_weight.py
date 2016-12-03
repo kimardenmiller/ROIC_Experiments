@@ -30,14 +30,15 @@ print('Selected Feature Label Names: \n', selected_feature_labels)
 print('First few Stocks with Features, no Labels: ', '\n', x_data_features[0:2, :], ' ...')
 print(np.size(x_data_features[:, 0]), 'Stocks by', np.size(x_data_features[0, :]), 'Features (with Tickers')
 
-y_import = pandas.read_csv('../data/y201501_noFinancials.csv', header=None)
+y_import = pandas.read_csv('../data/y20150106_noFin8.csv', header=None)
 y_data_values = y_import[1:].values
 
 x_tickers = x_data_features[:, 0]
 print('x tickers: ', x_tickers)
-y_tickers = y_data_values[:, 0]
+y_tickers = y_data_values[:np.size(y_data_values[:, 0])-1, 0]
 print('Total Y Tickers: ', np.size(y_tickers))
 print('First few Y tickers: \n', y_tickers[0:5])
+print('Last few Y tickers: \n', y_tickers[673:])
 
 # Format Y to y = 1 (positive) and y = 0 (negative) examples
 true_false_mask = np.in1d(x_tickers, y_tickers)
@@ -71,7 +72,7 @@ def create_baseline():
     model.add(Dense(num_of_features, init='normal', activation='relu'))
     model.add(Dense(1, init='normal', activation='sigmoid'))
     # Compile model
-    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy', 'fbeta_score'])
+    model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy', 'fbeta_score'])
     # evaluate the model
     scores = model.evaluate(X, Y)
     print('\n', "%s: %.2f%%" % (model.metrics_names[0], scores[0] * 100))
@@ -99,7 +100,12 @@ def create_baseline():
 # evaluate baseline model with standardized data set
 estimators = []
 estimators.append(('standardize', StandardScaler()))
-estimators.append(('mlp', KerasClassifier(build_fn=create_baseline, nb_epoch=100, batch_size=10, verbose=0)))
+class_weights = {0: 1, 1: 10}
+estimators.append(['mlp', KerasClassifier(build_fn=create_baseline,
+                                          nb_epoch=100,
+                                          batch_size=10,
+                                          class_weight=class_weights,
+                                          verbose=0)])
 pipeline = Pipeline(estimators)
 kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
 results = cross_val_score(pipeline, X, Y, cv=kfold)
@@ -109,5 +115,7 @@ print('\nAccuracy Metrics:', '\n-----------------------')
 print('Accuracy Average of All Positive Predictions: %.2f%%   Standard Deviation: (%.2f%%)' % (np.asarray(positive_scores).mean(), np.asarray(positive_scores).std()))
 print("Baseline Accuracy of Random Prediction: %.2f%% " % ((total_positive_examples / total_examples) * 100))
 
-#  Nov 28, 2016
-#  Accuracy Average of All Positive Predictions: 6.67% Standard Deviation: (3.87%)
+# Nov 30, 2016
+# Standardized (conventional): 36.57% (3.72%)
+# Accuracy Average of All Positive Predictions: 24.14%   Standard Deviation: (12.30%)
+# Baseline Accuracy of Random Prediction: 24.93%
